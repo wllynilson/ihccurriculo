@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <head>
+        <title>Seleção de Professores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="keyword [, keyword]*" />
+        <link rel="stylesheet" type="text/css" href="./css/estilo.css" media="all">
+    </head>
+</head>
+<body> 
+    <nav>
+        <ul>        
+            <li><a href="#top" accesskey="1">Ir para o Conteúdo Principal [Alt + 1]</a></li>
+            <li><a href="#menu" accesskey="2">Início do Menu [Alt + 2]</a></li>
+            <li><a href="" accesskey="3" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste [Alt + 3]</a></li>        
+        </ul>    
+        <ul id="direita">
+            <li id="direitar"><a href="acessibilidade.html" title="acessibilidade">Acessibilidade</a></li>
+            <li><button onClick="fonte('a');">Aumentar fonte</button></li>
+            <li><button onClick="fonte('d');">Diminuir fonte</button></li>
+        </ul>
+    </nav>    
+
+    <fieldset class="esconder">
+        <h1 class="acessibilidade">Cadastro de Professores</h1>
+    <div>
+        <form name="" method="" action="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="acessibilidade">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" name="user" value="" size="50" autofocus="" required="" />                                
+                </div>
+
+                <div class="acessibilidade">
+                    <label for="nome">Data de nascimento:</label>          
+                    <input type="date" name="bday" required="" title="data de nascimento">
+
+                    <label for="sexo">Sexo:</label>
+                    <input type="text" name="sexo" title="Sexo"/>
+
+                    <label for="sexo">Etinia:</label>
+                    <input type="text" name="etinia" title="etinia"/>
+                </div>
+
+                <div class="acessibilidade">
+                    <label for="nomedopai">Nome do pai:</label>
+                    <input type="text" title="Nome do pai"/>
+
+                    <label for="nomedamae">Nome da mãe:</label>
+                    <input type="text" title="Noma da mãe"/>
+                </div>
+            </fieldset>
+                
+                <fieldset>
+                    <legend>Endereço</legend>
+
+                    <div class="acessibilidade">
+                        
+                        <label for="cep">CEP:</label>
+                        <input type="text" title="CEP"/>
+                        
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" title="Endereço"/>
+                        
+                        <label for="numero">N°:</label>
+                        <input type="text" title="número da casa"/>
+                        
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" title="Complemento"/>
+                    </div>
+                    <div class="acessibilidade">
+                        <label for="bairro">Bairro:</label>
+                        <input type="text" title="Bairro"/>
+
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" title="Cidade"/>
+
+                        <label for="estado">Estado:</label>
+                        <!--<input type="text"/> ESTADOS -->
+                        <select name="estado">
+                            <optgroup label="Estado" title="escolha um estado">
+                                <option value="acre" title="Acre">Acre (AC)</option>
+                                <option value="alagoas" title="Alagoas">Alagoas (AL)</option>
+                                <option value="amapa" title="Amapá">Amapá (AP)</option>
+                                <option value="amazonas" title="Amazonas">Amazonas (AM)</option>
+                                <option value="bahia" title="Bahia">Bahia (BA)</option>
+                                <option value="ceara" title="Ceara">Ceará (CE)</option>
+                                <option value="df" title="Distrito Federal">Distrito Federal (DF)</option>
+                                <option value="espiritosanto" title="Espírito Santo">Espírito Santo (ES)</option>
+                                <option value="maranhao" title="Maranhão">Maranhão (MA)</option>
+                                <option value="matogrosso" title="Mato Grosso">Mato Grosso (MT)</option>
+                                <option value="matogrossodosul" title="Mato Grosso do sul">Mato Grosso do Sul (MS)</option>
+                                <option value="minasgerais" title="Minas Gerais">Minas Gerais (MG)</option>
+                                <option value="para" title="Pará">Pará (PA)</option>
+                                <option value="paraiba" title="Paraíba">Paraíba (PB)</option>
+                                <option value="parana" title="Paraná">Paraná (PR)</option>
+                                <option value="piaui" title="Piauí">Piauí (PI)</option>
+                                <option value="rio" title="Rio de Janeiro">Rio de Janeiro (RJ)</option>
+                                <option value="riograndedonorte" title="Rio Grande do Norte">Rio Grande do Norte (RN)</option>
+                                <option value="riograndedosul" title="Rio Grande do Sul ">Rio Grande do Sul (RS)</option>
+                                <option value="rondonia" title="Rondônia">Rondônia (RO)</option>
+                                <option value="rondonia" title="Roraima">Roraima (RR)</option>
+                                <option value="santacatarina" title="Santa Catarina">Santa Catarina (SC)</option>
+                                <option value="saopaulo" title="São Paulo">São Paulo (SP)</option>
+                                <option value="sergipe" title="Sergipe">Sergipe (SE)</option>
+                                <option value="tocantins" title="Tocantins">Tocantins (TO)</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Outros</legend>
+                    <div class="acessibilidade">
+                        <label for="emailInstitucional">E-mail institucional:</label>
+                        <input type="email" title="Email institucional"/>
+                    </div>
+                    <div class="acessibilidade">
+                        <label for="telefoneresidencial">Telefone Residencial:</label>
+                        <input type="text" title="Telefone residencial"/>
+                        <label for="telefonecomercial">Telefone Comercial:</label>
+                        <input type="text" title="Telefone comercial"/>
+                        <label for="celular">Celular:</label>
+                        <input type="text" title="Celular"/>
+                    </div>
+
+                    <div class="acessibilidade">
+                        <label for="nacionalidade">Nacionalidade:</label>
+                        <input type="text" title="Nacionalidade"/>
+                        <label for="naturalidade">Naturalidade:</label>
+                        <input type="text" title="Naturalidade"/>
+                    </div>
+                    
+                    <div class="acessibilidade">
+                        <label for="estadoCivil">Estado civil:</label>
+                        <select name="estadoCivil" title="Estado Civil"/>                            
+                            <option value="solteiro" title="Solteiro">Solteiro</option>
+                            <option value="casado" title="Casado">Casado</option>
+                            <option value="viuvo" title="Viúvo">Viúvo</option>
+                        </select>
+                        
+                        <label for="numfilhos">N° de Filhos</label>
+                        <input type="number" title="Numero de filhos"/>  
+                        
+                        <label for="tiposanguinio">Tipo Sanguínio</label>
+                        <select type="text" title="Tipo Sanguínio"/>
+                            <option value="a+" title="A positivo">A +</option>
+                            <option value="a-" title="A negativo">A -</option>
+                            <option value="b+" title="B positivo">B +</option>
+                            <option value="b-" title="B negativo">B -</option>
+                            <option value="ab+" title="AB positivo">AB +</option>
+                            <option value="ab-" title="AB negativo">AB -</option>
+                            <option value="o+" title="O positivo">O +</option>
+                            <option value="o-" title="O negativo">O -</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="acessibilidade">Esperiências profissionais</legend>
+                    <textarea class="acessibilidade">
+
+                    </textarea>
+                </fieldset>
+                <button class="acessibilidade">Enviar</button>
+                <button class="acessibilidade">Cancelar</button>
+                
+
+            </form>
+        </div>       
+        </fieldset>
+        <script src="./js/high-contrast.js"></script>
+        <script src="./js/font.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </body>
+</html>

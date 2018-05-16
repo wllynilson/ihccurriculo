@@ -1,0 +1,177 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 5;
+    font-size: 14px;
+}
+
+li {
+    text-align: right;
+    display: inline;
+
+}
+
+#direita{
+    list-style-type: none;
+    margin-right: 0%;
+    padding-left: 90%;
+    font-size: 14px;
+}
+
+#direitar{
+    text-align: right;
+    display: inline;
+    
+}
+
+body {
+    font-size: 62.5%
+}
+
+
+form {
+    font-size: 1.6em;
+    font: 13px;
+    padding: 2em;
+}
+
+form fieldset {
+    border: 1px solid #666;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    margin :10px 10px 10px 10px; 
+    box-shadow: 4px 4px 6px rgb(102, 98, 98);
+    
+}
+
+form legend {    
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.2em 0.2em 0.2em 0.2em; 
+    border: 1px solid #333;
+    color: #000;
+        
+    }
+    
+form label {
+    font-weight: bold;
+    display: inline-table;
+    margin: 0.5em 0 0.5em 0;
+   
+}
+form input {	
+  /*  width: 10em;*/
+      font-weight: bold;    
+      color: blue;
+      margin: 0.5em 0 0.5em 0;
+      height: 2em;
+   /* text-transform: uppercase;*/
+}
+
+form input#submit {
+    margin-bottom: 1em;
+    width: auto;
+}
+form textarea {	
+    width: 20em;
+    margin-bottom: 0.8em;
+    float: right;
+}
+form select {
+    height: 2em;
+}
+
+/*CAMPOS DE FORMULÁRIO*/
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+/*ALTO CONTRAST - FUNDO PRETO*/
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+/*ALTO CONTRAST - LETRAS BRANCAS*/
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+/*LINKS AMARELOS*/
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+/*IMAGENS*/
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+ul {
+	list-style: inside;
+}
+nav{
+    font-size: 12px;
+}
+
+button{
+    text-align: right;
+}
