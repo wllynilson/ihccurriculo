@@ -1,6 +1,10 @@
-# IHC
+# IHC 
 
 Interface Homem Computador
+
+[![license](https://img.shields.io/github/license/DEVpalmas/ihccurriculo.svg)](./LICENSE.md)
+[![GitHub contributors](https://img.shields.io/github/contributors/DEVpalmas/ihccurriculo.svg)](https://github.com/DEVpalmas/ihccurriculo/graphs/contributors)
+
 
 ## Proposta
 
